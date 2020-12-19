@@ -144,6 +144,7 @@ ul {
   background: #000000;
   border: none;
   color: white;
+  width: 5%;
 }
 .search-button:focus {
   outline: none;
@@ -173,5 +174,8 @@ ul {
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
+}
+.cart_block ul li a{
+    color: #000000;
 }
 /* topbar logo end */
