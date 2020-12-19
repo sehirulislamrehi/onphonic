@@ -1,58 +1,177 @@
 /* global css start */
+
 p{
-    font-family: 'Bree Serif', serif;
+    margin: 0;
 }
-a{
-    font-family: 'Bree Serif', serif;
+p,
+li,
+a,
+label,
+button,
+select{
+  font-size: 14px;
+  font-family: "Bree Serif", serif;
 }
-a:hover{
-    text-decoration: none;
-    color: none;
+::placeholder {
+    font-family: "Bree Serif", serif;
+}
+
+:-ms-input-placeholder {
+    font-family: "Bree Serif", serif;
+}
+
+::-ms-input-placeholder {
+    font-family: "Bree Serif", serif;
+}
+a:hover {
+  text-decoration: none;
+  color: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 /* global css end */
 
-
-
-
-
-
-
-
-
 /* ad section start */
-.ad-section{
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    height: 10vh;
-    background-repeat: no-repeat;
+.ad-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  background-repeat: no-repeat;
 }
-.close-ad{
-    background: #ffd40e;
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    padding: 5px;
-    z-index: 1;
-    cursor: pointer;
+.close-ad {
+  background: #ffd40e;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  z-index: 1;
+  cursor: pointer;
 }
-.close-ad:hover{
-    background: #000000;
+.close-ad:hover {
+  background: #000000;
 }
-.ad-shop-btn{
+.ad-shop-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ffd40e;
+  color: white;
+  left: 90%;
+  padding: 10px 15px;
+}
+.ad-shop-btn:hover {
+  color: white;
+  background: #000000;
+}
+/* ad section end */
+
+/* topbar contact section start */
+.contact-section {
+  background: #000000;
+  position: relative;
+  padding: 10px 0;
+}
+.top-phone ul {
+  text-align: left;
+}
+.top-phone ul li {
+  display: inline;
+  color: white;
+}
+.top-useful-link ul li {
+  display: inline;
+  padding: 0 10px;
+}
+.top-useful-link ul {
+  text-align: right;
+}
+.top-useful-link ul li a {
+  color: white;
+}
+.top-useful-link ul li a:hover {
+  color: #ffd40e;
+}
+/* topbar contact section end */
+
+/* topbar logo start */
+.top-logo {
+  background: #ffd40e;
+  padding: 10px 0;
+}
+.top-logo .logo img {
+  width: 100%;
+}
+.topbar-search {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topbar-search form {
+  width: 100%;
+}
+.topbar-search .cat_block {
+  width: 30%;
+  float: left;
+  margin-bottom: 0;
+}
+.topbar-search .search_block {
+  width: 65%;
+  float: left;
+  margin-bottom: 0;
+  position: relative;
+}
+.topbar-search .form-group .form-control {
+  border-radius: 0;
+}
+.topbar-search .form-group .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #ffd40e;
+}
+.search-button {
+  position: absolute;
+  right: 0%;
+  top: 0;
+  height: 100%;
+  background: #000000;
+  border: none;
+  color: white;
+}
+.search-button:focus {
+  outline: none;
+}
+.free-shipping ul li{
+    display: inline-block;
+}
+.free-shipping ul{
+    text-align: right;
+}
+.free-shipping{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: #ffd40e;
-    color: white;
-    left: 90%;
-    padding: 10px 15px;
+    width: 100%;
+    right: 0;
+    padding-right: 15px;
 }
-.ad-shop-btn:hover{
-    color: white;
-    background: #000000;
+.cart_block ul li{
+    margin: 0 15px;
 }
-/* ad section end */
+.cart_block ul li .fas, .cart_block ul li .far{
+    font-size: 25px;
+}
+.cart_block{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* topbar logo end */
