@@ -1,0 +1,2 @@
+yellow: #ffd40e
+black: #000
