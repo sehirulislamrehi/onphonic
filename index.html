@@ -20,6 +20,7 @@
 
     <!-- custom css start -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 
     <title>Onphonic.com</title>
@@ -39,184 +40,588 @@
     </section>
     <!-- topbar ad end -->
 
-    <!-- topbar contact info start -->
-    <section class="contact-section">
-        <div class="container-fluid">
-            <div class="row">
+    <!-- for pc start -->
+    <div class="for-pc">
+        <!-- topbar contact info start -->
+        <section class="contact-section">
+            <div class="container-fluid">
+                <div class="row">
 
-                <!-- phone -->
-                <div class="col-md-2">
-                    <div class="top-phone">
-                        <ul>
-                            <li>
-                                <i class="fas fa-phone"></i>
-                            </li>
-                            <li>
-                                Support 24/7 : 01405-313233 , 01403-919293
-                            </li>
-                        </ul>
+                    <!-- phone -->
+                    <div class="col-md-2 top-col-left">
+                        <div class="top-phone">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                </li>
+                                <li>
+                                    Support 24/7 : 01405-313233 , 01403-919293
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <!-- phone -->
+                    <!-- phone -->
 
-                <!-- email -->
-                <div class="col-md-2">
-                    <div class="top-phone">
-                        <ul>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                            </li>
-                            <li>
-                                info@onphonic.com
-                            </li>
-                        </ul>
+                    <!-- email -->
+                    <div class="col-md-2 top-col-middle">
+                        <div class="top-phone">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                </li>
+                                <li>
+                                    info@onphonic.com
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <!-- email -->
+                    <!-- email -->
 
-                <!-- useful links -->
-                <div class="col-md-8">
-                    <div class="top-useful-link">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    About Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Contact Us
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Customer Feedback
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Onphonic Daily Update
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fas fa-user"></i>
-                                    Sign In
-                                </a>
-                            </li>
-                        </ul>
+                    <!-- useful links -->
+                    <div class="col-md-8 top-col-right">
+                        <div class="top-useful-link">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Customer Feedback
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Onphonic Daily Update
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-user"></i>
+                                        Sign In
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <!-- useful links -->
+                    <!-- useful links -->
 
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- topbar contact info end -->
+        </section>
+        <!-- topbar contact info end -->
 
 
-    <!-- top logo section start -->
-    <section class="top-logo">
-        <div class="container-fluid">
-            <div class="row">
+        <!-- top logo section start -->
+        <section class="top-logo">
+            <div class="container-fluid">
+                <div class="row">
 
-                <!-- logo start -->
-                <div class="col-md-1">
-                    <div class="logo">
-                        <a href="">
-                            <img src="images/logo.png" class="img-fluid" alt="">
-                        </a>
+                    <!-- logo start -->
+                    <div class="col-md-1">
+                        <div class="logo">
+                            <a href="">
+                                <img src="images/logo.png" class="img-fluid" alt="">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <!-- logo end -->
+                    <!-- logo end -->
 
-                <!-- search field start -->
-                <div class="col-md-7" style="position: relative;">
-                    <div class="topbar-search">
-                        <form action="">
-                            <div class="form-group cat_block">
-                                <select name="" class="form-control" required>
-                                    <option>All Categories</option>
-                                </select>
-                            </div>
-                            <div class="form-group search_block">
-                                <input type="search" class="form-control" placeholder="Search..." required>
-                                <button type="submit" class="search-button">
-                                    <i class="fas fa-search"></i>
-                                </button>
-                            </div>
-                        </form>
+                    <!-- search field start -->
+                    <div class="col-md-5" style="position: relative;">
+                        <div class="topbar-search">
+                            <form action="">
+                                <div class="form-group cat_block">
+                                    <select name="" class="form-control" required>
+                                        <option>All Categories</option>
+                                    </select>
+                                </div>
+                                <div class="form-group search_block">
+                                    <input type="search" class="form-control" placeholder="Search..." required>
+                                    <button type="submit" class="search-button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
+                    <!-- search field end -->
+
+                    <!-- free shipping start -->
+                    <div class="col-md-6 free-shipping-col" style="position: relative;">
+                        <div class="free-shipping">
+                            <div class="row">
+
+                                <!-- free shipping start -->
+                                <div class="col-md-12" style="position: relative;">
+                                    <div class="cart_block">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <i class="far fa-heart"></i>
+                                                </a>
+                                            </li>
+                                            <li class="cart_box" id="cart_box" onmouseover="cartListShow()"
+                                                onmouseout="cartListHide()">
+                                                <!-- cart count start -->
+                                                <div class="cart_count">
+                                                    <p>5</p>
+                                                </div>
+                                                <!-- cart count end -->
+                                                <i class="fas fa-shopping-basket"></i>
+
+                                                <!-- cart item list -->
+                                                <div class="cart_list" id="cart_list">
+                                                    <table class="table table-striped">
+                                                        <thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="images/product-1.jpg" width="50px" alt="">
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#">Asparagus - 1 kg / Green</a>
+                                                                    <p>1 x $229.00 USD</p>
+                                                                </td>
+                                                                <td>
+                                                                    <button class="remove_cart">
+                                                                        <i class="fas fa-times"></i>
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="images/product-1.jpg" width="50px" alt="">
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#">Asparagus - 1 kg / Green</a>
+                                                                    <p>1 x $229.00 USD</p>
+                                                                </td>
+                                                                <td>
+                                                                    <button class="remove_cart">
+                                                                        <i class="fas fa-times"></i>
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+                                                    <!-- cart detail -->
+                                                    <div class="cart_detail">
+                                                        <p class="text-center">Cart Total <span>1000 BDT</span> </p>
+                                                        <a href="" class="checkout">Checkout</a>
+                                                        <a href="" class="cart_view">Cart View</a>
+                                                    </div>
+                                                    <!-- cart detail end-->
+
+                                                </div>
+                                                <!-- cart item list end -->
+                                                <script>
+                                                    function cartListShow() {
+                                                        document.getElementById("cart_list").style.display = "block"
+                                                    }
+                                                    function cartListHide() {
+                                                        document.getElementById("cart_list").style.display = "none"
+                                                    }
+                                                </script>
+
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <!-- free shipping end -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- free shipping end -->
+
                 </div>
-                <!-- search field end -->
+            </div>
+        </section>
+        <!-- top logo section end -->
 
-                <!-- free shipping start -->
-                <div class="col-md-4" style="position: relative;">
-                    <div class="free-shipping">
-                        <div class="row">
-
-                            <!-- free shipping start -->
-                            <div class="col-md-5">
-                                <div class="col-md-1" style="float:left">
-                                    <i class="fas fa-shopping-cart"></i>
-                                </div>
-                                <div class="col-md-10" style="float:left">
-                                    <p>Free Shipping </p>
-                                    <p>Money back guarante </p>
-                                </div>
-                            </div>
-                            <!-- free shipping end -->
-
-                            <!-- free shipping start -->
-                            <div class="col-md-4">
-                                <div class="col-md-1" style="float:left">
-                                    <i class="fas fa-money-bill"></i>
-                                </div>
-                                <div class="col-md-10" style="float:left">
-                                    <p>BIG SAVING MONEY </p>
-                                    <p>On Order Over $99</p>
-                                </div>
-                            </div>
-                            <!-- free shipping end -->
-
-                            <!-- free shipping start -->
-                            <div class="col-md-3" style="position: relative;">
-                                <div class="cart_block">
-                                    <ul>
-                                        <li>
-                                            <a href="">
-                                                <i class="far fa-heart"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-shopping-basket"></i>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </div>
-                            <!-- free shipping end -->
-
+        <!-- top navbar start -->
+        <section class="top-navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="nav-item-list">
+                            <ul>
+                                <li>
+                                    <a href="">Electronics & Home Appliance</a>
+                                </li>
+                                <li>
+                                    <a href="">Women's Fashion</a>
+                                </li>
+                                <li>
+                                    <a href="">Gadget Items</a>
+                                </li>
+                                <li>
+                                    <a href="">Consumer Promotions</a>
+                                </li>
+                                <li>
+                                    <a href="">Cooking Products</a>
+                                </li>
+                                <li>
+                                    <a href="">Food Products</a>
+                                </li>
+                                <li>
+                                    <a href="">Organic Fruits & Vegetables</a>
+                                </li>
+                                <li>
+                                    <a href="">Health & Beauty</a>
+                                </li>
+                                <li>
+                                    <a href="">Home & Cleaning</a>
+                                </li>
+                                <li>
+                                    <a href="">Office & Stationary</a>
+                                </li>
+                                <li>
+                                    <a href="">Medinice</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <!-- free shipping end -->
+            </div>
+        </section>
+        <!-- top navbar end -->
+
+
+    </div>
+    <!-- for pc end -->
+
+
+    <!-- for mob start -->
+    <div class="for-mob">
+
+        <!-- sidebar start -->
+        <div class="side_bar_mob" id="side_bar_mob">
+            
+            <!-- close div start -->
+            <div class="close_sidebar">
+                <p id="go_back"> <i class="fas fa-arrow-left"></i> Back</p>
+            </div>          
+            <!-- close div end -->
+
+            <!-- nav bar list start -->
+            <div class="nav-list-mob">
+
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-1"> <i class="fas fa-shopping-bag"></i> Electronics & Home Appliance  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-1">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-2"> <i class="fas fa-shopping-bag"></i> Women's Fashion  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-2">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-3"> <i class="fas fa-shopping-bag"></i> Gadget Items  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-3">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-4"> <i class="fas fa-shopping-bag"></i> Consumer Promotions  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-4">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-5"> <i class="fas fa-shopping-bag"></i> Cooking Products  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-5">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-6"> <i class="fas fa-shopping-bag"></i> Food Products  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-6">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-7"> <i class="fas fa-shopping-bag"></i> Organic Fruits & Vegetables   <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-7">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-8"> <i class="fas fa-shopping-bag"></i> Health & Beauty  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-8">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-9"> <i class="fas fa-shopping-bag"></i> Home & Cleaning  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-9">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-10"> <i class="fas fa-shopping-bag"></i> Office & Stationary  <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-10">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
+                <!-- dropdown nav start -->
+                <div class="nav-dropdown">
+                    <p class="nav-click" id="nav-item-mob-11"> <i class="fas fa-shopping-bag"></i> Medinice <i class="fas fa-angle-right"></i> </p>
+                    <div class="nav-dropdown-child nav-item-mob-11">
+                        <ul>
+                            <li>
+                                <a href="">Item One</a>
+                            </li>
+                            <li>
+                                <a href="">Item Two</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- dropdown nav end -->
 
             </div>
+            <!-- nav bar list end -->
+
         </div>
-    </section>
-    <!-- top logo section end -->
+        <!-- sidebar end -->
+        
+        <!-- search section start -->
+        <section class="search-mob">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-1">
+                        <div class="left" id="show_sidebar">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <script>
+                            let sideBar = document.getElementById("side_bar_mob")
+                            document.getElementById("show_sidebar").onclick = () => {
+                                sideBar.style.transform = "translateX(0)"
+                                document.getElementsByTagName("BODY")[0].style.overflow = "hidden"
+                            }
+                            document.getElementById("go_back").onclick = () => {
+                                sideBar.style.transform = "translateX(-100%)"
+                                document.getElementsByTagName("BODY")[0].style.overflow = "auto"
+                            }
+                        </script>
+                    </div>
+                    <div class="col-11">
+                        <div class="right">
+                            <form action="">
+                                <input type="search" class="form-control" required placeholder="Search...">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- search section end -->
+
+        <!-- cart section start -->
+        <section class="cart-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="cart_box" id="cart_box" onmouseover="cartListMobShow()" onmouseout="cartListMobHide()">
+                                <!-- cart count start -->
+                                <div class="cart_count">
+                                    <p>5</p>
+                                </div>
+                                <!-- cart count end -->
+                                <i class="fas fa-shopping-basket"></i>
+
+                                <!-- cart list mob start -->
+                                <div class="cart_list_mob" id="cart_list_mob">
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img src="images/product-1.jpg" width="50px" alt="">
+                                                </td>
+                                                <td>
+                                                    <a href="#">Asparagus - 1 kg / Green</a>
+                                                    <p>1 x $229.00 USD</p>
+                                                </td>
+                                                <td>
+                                                    <button class="remove_cart">
+                                                        <i class="fas fa-times"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src="images/product-1.jpg" width="50px" alt="">
+                                                </td>
+                                                <td>
+                                                    <a href="#">Asparagus - 1 kg / Green</a>
+                                                    <p>1 x $229.00 USD</p>
+                                                </td>
+                                                <td>
+                                                    <button class="remove_cart">
+                                                        <i class="fas fa-times"></i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <!-- cart detail -->
+                                    <div class="cart_detail">
+                                        <p class="text-center">Cart Total <span>1000 BDT</span> </p>
+                                        <a href="" class="checkout">Checkout</a>
+                                        <a href="" class="cart_view">Cart View</a>
+                                    </div>
+                                    <!-- cart detail end-->
+
+                                </div>
+                                <!-- cart list mob end -->
+                                <script>
+                                    function cartListMobShow(){
+                                        document.getElementById("cart_list_mob").style.display = "block"
+                                    }
+                                    function cartListMobHide(){
+                                        document.getElementById("cart_list_mob").style.display = "none"
+                                    }
+                                </script>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cart section end -->
+
+    </div>
+    <!-- for mob end -->
+
 
 
 
 
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
     -->
