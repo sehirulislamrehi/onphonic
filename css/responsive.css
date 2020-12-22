@@ -10,6 +10,15 @@
         right: 0;
         left: unset;
     }
+    .category_desktop{
+        display: none;
+    }
+    .horizontal_item .icon {
+        height: 40px;
+    }
+    .website_main_section .right .right-item {
+        text-align: center;
+    }
 }
 
 
@@ -26,6 +35,16 @@
         right: 0;
         left: unset;
     }
+    .category_desktop{
+        display: none;
+    }
+    .shipping_detail_desktop{
+        display: none;
+    }
+    .banner_desktop{
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
 }
 
 
@@ -41,8 +60,39 @@
         right: 0;
         left: unset;
     }
+
+    .category_desktop{
+        display: none;
+    }
+    .shipping_detail_desktop{
+        display: none;
+    }
+    .banner_desktop{
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
+    
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:991px) and (max-width:1024px){
+    .right-item h5{
+        font-size: 14px;
+    }
+}
 
 
 
