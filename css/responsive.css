@@ -19,6 +19,33 @@
     .website_main_section .right .right-item {
         text-align: center;
     }
+    .footer-top .left{
+        text-align: center;
+    }
+    .footer-top .middle{
+        position: unset;
+        transform: unset;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .footer-top .right ul{
+        position: unset;
+        transform: unset;
+        margin-top: 15px;
+    }
+    .widget-box{
+        margin-top: 15px;
+    }
+    .widget-box img{
+        display: block;
+        margin: 0 auto;
+    }
+    .product-box .add_cart{
+        top: 0;
+    }
+    .product-item-row .detail, .product-item-row .image{
+        text-align: center;
+    }
 }
 
 
@@ -43,7 +70,19 @@
     }
     .banner_desktop{
         flex: 0 0 100%;
-    max-width: 100%;
+        max-width: 100%;
+    }
+    .footer-top .left h4{
+        font-size: 17px;
+    }
+    .horizontal_item .icon {
+        height: 50px;
+    }
+    .widget-box h4{
+        font-size: 17px;
+    }
+    .product-box .add_cart{
+        top: 0;
     }
 }
 
