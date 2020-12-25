@@ -11,7 +11,7 @@ $(document).ready(function(){
         }
         else{
             $(".top-logo").css({
-                "position" : "unset",
+                "position" : "relative",
                 "top" : "0",
                 "left" : "0",
                 "width" : "100%",
@@ -35,7 +35,7 @@ $(document).ready(function(){
         }
         else{
             $(".search-mob").css({
-                "position" : "unset",
+                "position" : "relative",
                 "top" : "0",
                 "left" : "0",
                 "width" : "100%",
@@ -48,11 +48,8 @@ $(document).ready(function(){
 
 
 
-
-
-
-//product carousel
-$('.product-carousel').owlCarousel({
+//category carousel
+$('.category-carousel').owlCarousel({
     loop:false,
     nav:true,
     dots: false,
@@ -67,7 +64,31 @@ $('.product-carousel').owlCarousel({
             items:3
         },
         1000:{
-            items:4
+            items:5
+        }
+    }
+})
+
+
+
+
+//product carousel
+$('.product-carousel').owlCarousel({
+    loop:false,
+    nav:true,
+    dots: false,
+    autoplay:false,
+    autoplayTimeout:5000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
         }
     }
 })
