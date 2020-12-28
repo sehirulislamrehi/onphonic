@@ -195,3 +195,14 @@ $(document).ready(function(){
    })
 })
 
+$(document).ready(function(){
+    $(".nav-click-pc").click(function(){
+        let nav = $(this).attr('id')
+        console.log(this)
+        if( nav  != 'all' ){
+            $("." + nav).slideToggle()
+            $(this).toggleClass("nav-pc-select-color")
+        }
+    })
+ })
+

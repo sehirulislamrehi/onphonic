@@ -1,4 +1,7 @@
 /* global css start */
+html{
+  scroll-behavior: smooth;
+}
 body{
   background: #F7F8FA;
 }
@@ -59,6 +62,9 @@ button:focus{
 .form-control:focus{
   box-shadow: none;
   outline: none;
+}
+.nav-pc-select-color{
+  color: #84c225;
 }
 /* global css end */
 
@@ -613,9 +619,7 @@ button:focus{
     width: 30%;
     height: 3px;
 }
-.website_main_section .left ul{
-  margin-bottom: 15px;
-}
+
 .website_main_section .left ul li{
   list-style: none;
   padding: 12px 15px 12px 15px;
@@ -624,27 +628,21 @@ button:focus{
   position: relative;
   
 }
+.website_main_section .left ul li .fa-angle-right{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
 .website_main_section .left ul li .sub_cat{
-    position: absolute;
-    left: 100%;
-    top: 0;
-    z-index: 3;
-    background: #605e5e;
-    width: max-content;
     display: none;
 }
-.website_main_section .left ul li:hover{
-  background-color: #605e5e;
-  color: white;
-}
-.website_main_section .left ul li:hover .sub_cat{
-  display: block;
-}
+
+
 .website_main_section .left ul li .sub_cat ul li{
   padding: 10px 15px 10px 15px;
 }
 .website_main_section .left ul li .sub_cat ul li a{
-  color: white;
+  color: #000000;
 }
 .website_main_section .left ul li .sub_cat ul li:hover{
   background-color: white;
@@ -903,6 +901,7 @@ button:focus{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+  height: 100%;
 }
 .product-box a{
   display: block;
@@ -1084,7 +1083,7 @@ button:focus{
   color: #000000;
 }
 .footer-middle{
-  padding: 15px 0;
+  padding: 50px 0;
 }
 .widget-box ul li{
   list-style: none;
@@ -1112,3 +1111,35 @@ button:focus{
   color: white;
 }
 /* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* go to top start */
+.go-to-top{
+  position: fixed;
+  z-index: 3;
+  background: #84c225;
+  bottom: 0;
+  right: 15px;
+  padding: 15px;
+  color: white;
+}
+/* to to top end */
