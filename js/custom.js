@@ -1,48 +1,48 @@
 //window scroll desktop
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if( $(window).scrollTop() > 100 ){
-            $(".top-logo").css({
-                "position" : "fixed",
-                "top" : "0",
-                "left" : "0",
-                "width" : "100%",
-            })
-        }
-        else{
-            $(".top-logo").css({
-                "position" : "relative",
-                "top" : "0",
-                "left" : "0",
-                "width" : "100%",
-            })
-        }
-    })
-})
+// $(document).ready(function(){
+//     $(window).scroll(function(){
+//         if( $(window).scrollTop() > 100 ){
+//             $(".top-logo").css({
+//                 "position" : "fixed",
+//                 "top" : "0",
+//                 "left" : "0",
+//                 "width" : "100%",
+//             })
+//         }
+//         else{
+//             $(".top-logo").css({
+//                 "position" : "relative",
+//                 "top" : "0",
+//                 "left" : "0",
+//                 "width" : "100%",
+//             })
+//         }
+//     })
+// })
 
 
 
 //window scroll mobile
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if( $(window).scrollTop() > 20 ){
-            $(".search-mob").css({
-                "position" : "fixed",
-                "top" : "0",
-                "left" : "0",
-                "width" : "100%",
-            })
-        }
-        else{
-            $(".search-mob").css({
-                "position" : "relative",
-                "top" : "0",
-                "left" : "0",
-                "width" : "100%",
-            })
-        }
-    })
-})
+// $(document).ready(function(){
+//     $(window).scroll(function(){
+//         if( $(window).scrollTop() > 20 ){
+//             $(".search-mob").css({
+//                 "position" : "fixed",
+//                 "top" : "0",
+//                 "left" : "0",
+//                 "width" : "100%",
+//             })
+//         }
+//         else{
+//             $(".search-mob").css({
+//                 "position" : "relative",
+//                 "top" : "0",
+//                 "left" : "0",
+//                 "width" : "100%",
+//             })
+//         }
+//     })
+// })
 
 
 

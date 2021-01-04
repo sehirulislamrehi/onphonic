@@ -66,6 +66,9 @@ button:focus{
 .nav-pc-select-color{
   color: #84c225;
 }
+.website_main_main_row .left-content .category_desktop::-webkit-scrollbar{
+  width: 0;
+}
 /* global css end */
 
 
@@ -453,7 +456,7 @@ button:focus{
   padding: 10px 0;
 }
 .cart-section ul{
-  text-align: center;
+  text-align: right;
 }
 .cart-section ul li{
   display: inline;
@@ -474,8 +477,7 @@ button:focus{
 .cart_list_mob{
   background: white;
   top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 0;
   position: absolute;
   z-index: 2;
   width: 300px;
@@ -598,7 +600,34 @@ button:focus{
 /* banner section start */
 .website_main_section{
   padding: 30px 0;
+  position: relative;
+  margin-top: 150px;
+  height: 100vh;
 }
+.website_main_section .left-content{
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 17%;
+}
+.website_main_main_row .left-content .category_desktop{
+  overflow: scroll;
+  height: 80vh;
+}
+.website_main_section .right-content{
+  left: 17%;
+  position: absolute;
+  width: 83%;
+  height: 100%;
+}
+.section-top-fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
 .website_main_section .left .title{
   padding: 15px;
 }
@@ -606,7 +635,6 @@ button:focus{
   position: relative;
 }
 .website_main_section .left{
-  border: 1px solid #e4e4e4;
   float: left;
   width: 100%;
 }
@@ -630,8 +658,8 @@ button:focus{
 }
 .website_main_section .left ul li .fa-angle-right{
   position: absolute;
-  right: 15px;
-  top: 15px;
+    right: 5px;
+    top: 15px;
 }
 .website_main_section .left ul li .sub_cat{
     display: none;
@@ -892,7 +920,7 @@ button:focus{
 }
 .product-box .image{
     width: 100%;
-    height: 200px;
+    height: 150px;
     position: relative;
 }
 .product-box .image img{
@@ -961,7 +989,7 @@ button:focus{
   background: white;
   padding: 15px 0;
 }
-.category-product .row .col-md-3{
+.category-product .row .col-md-2{
   padding: 0;
 }
 .category-product .row{
@@ -1001,7 +1029,6 @@ button:focus{
 
 /* website main section right */
 .website_main_section .right{
-  border: 1px solid #e4e4e4;
     float: left;
     width: 100%;
 }
